@@ -1,0 +1,4 @@
+// src/pages/Notifications.jsx
+export default function Notifications() {
+  return <div className="p-6">Notifications Page</div>;
+}
