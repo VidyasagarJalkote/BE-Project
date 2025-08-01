@@ -20,6 +20,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/mentees" element={<Mentees />} />
+              <Route path="/mentees/:menteeId" element={<Mentees />} />
               <Route path="/sessions" element={<Sessions />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/messages" element={<Messages />} />
